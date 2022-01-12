@@ -149,6 +149,7 @@ img{
 }
 
 .accordion .panel {
+  color: white;
    position: relative;
    width: 100%;
 }
@@ -157,10 +158,9 @@ img{
    position: relative;
    padding: 10px;
    background: #302b63;
-   /* background: #16a085; */
    color: #fff;
    cursor: pointer;
-   border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+   border-bottom: 1px solid white;
 
 }
 
@@ -177,12 +177,12 @@ img{
    content: "-";
 }
 .accordion .panel .acc-content {
+  color: white;
    position: relative;
    height: 0;
    overflow: hidden;
    transition: 0.5s;
    overflow-y: auto;
-   /* display: none; */
 }
 
 .accordion .panel.active .acc-content{
