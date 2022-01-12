@@ -1,11 +1,11 @@
 # WikiHacks
-
+<img src="A PROPOS/assets/img/HACKER-640x400.jpg">
 
 ## Sommaire
 
 
 - [Descriptions ](#description)
-- [Statut](#license)
+- [Statut](#statut)
 - [License](#license)
 - [Info Créateur](#author-info)
 
