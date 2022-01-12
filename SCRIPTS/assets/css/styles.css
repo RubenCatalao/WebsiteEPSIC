@@ -140,7 +140,7 @@ img{
   overflow: hidden;
 }
 body{
-  background-color: #302b63;
+  background-color: #0f0c29;
   margin-right: auto;
   min-height: 100vh;
   display: flex;
@@ -148,7 +148,7 @@ body{
 }
 
 .pricing-table{
-  background-color: #302b63;
+  background-color: #0f0c29;
   margin-right: auto;
   margin-left: auto;
   display: flex;
