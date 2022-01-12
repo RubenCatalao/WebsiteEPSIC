@@ -6,7 +6,7 @@
         
         <!-- ===== CSS ===== -->
 
-        <link rel="stylesheet" href="../ACCEUIL/assets/css/styles.css">
+        <link rel="stylesheet" href="../CONTACTE/assets/css/styles.css">
 
         <title>WikiHacks.</title>
     </head>
@@ -31,7 +31,7 @@
                     </div>
 
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="../ACCEUIL/index.html" class="nav__link active">Acceuil</a></li>
+                        <li class="nav__item"><a href="../index.html" class="nav__link active">Acceuil</a></li>
                         <li class="nav__item"><a href="../SCRIPTS/index.html" class="nav__link">Scripts</a></li>
                         <li class="nav__item"><a href="../FAQ/index.html" class="nav__link">FAQ</a></li>
                         <li class="nav__item"><a href="../A PROPOS/index.html" class="nav__link">A propos</a></li>
@@ -46,21 +46,19 @@
 
             <!--===== HOME =====-->
 
-            <section class="home" id="home">
-                <div class="home__container bd-grid">
-                    <div class="home__img">
-                        <img src="assets/img/img1.svg" alt="" data-speed="-5" class="move">
-                        
-                    </div>
+            <div class="contact-section">
 
-                    <div class="home__data">
-                        <h1 class="home__title">Bienvenue  <span class="wave">👋</span><br></h1>
-                        <p class="home__description">Ici vous retrouverez tous vos scripts de type malveillants.</p>
-                        <a href="#" class="home__button">Scripts Disponibles</a>
-                    </div>
-                </div>
-            </section>
-        </main>
+                <h1>Contact Us</h1>
+                <div class="border"></div>
+                <form class="contact-form" action="index.html" method="post">
+                  <input type="text" class="contact-form-text" placeholder="Votre Prénom">
+                  <input type="text" class="contact-form-text" placeholder="Votre nom">
+                  <input type="email" class="contact-form-text" placeholder="Votre Mail">
+                  <input type="text" class="contact-form-text" placeholder="Votre Numéro">
+                  <textarea class="contact-form-text" placeholder="Votre message"></textarea>
+                  <input type="submit" class="contact-form-btn" value="Send">
+                </form>
+              </div>
 
 
         <!--===== FOOTER =====-->
