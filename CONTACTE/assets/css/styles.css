@@ -158,7 +158,6 @@ img{
   margin-right: auto;
   width: 100px;
   height: 80px;
-  background: ;
   margin: 40px auto;
 }
 
@@ -180,7 +179,7 @@ img{
   background: #fff;
   padding: 20px 40px;
   outline: none;
-  color: #ddd;
+  color: black;
   transition: 0.5s;
 }
 .contact-form-text:focus{
